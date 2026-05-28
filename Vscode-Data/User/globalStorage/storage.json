@@ -4,7 +4,11 @@
     "telemetry.devDeviceId": "9b584a88-7b42-4234-ac12-c053f5386178",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201"
+            }
+        ],
         "emptyWindows": [
             {
                 "backupFolder": "1779968391458"
@@ -13,7 +17,9 @@
     },
     "windowControlHeight": 35,
     "profileAssociations": {
-        "workspaces": {},
+        "workspaces": {
+            "file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201": "__default__profile__"
+        },
         "emptyWindows": {
             "1779968391458": "__default__profile__"
         }
@@ -50,9 +56,10 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/Vscode-Data/Backups/1779968391458",
+            "folder": "file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201",
+            "backupPath": "/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/Vscode-Data/Backups/e692051e64398ed3a6dfc9bd885cc315",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 0,
                 "y": 0,
                 "width": 1200,
@@ -60,5 +67,17 @@
             }
         },
         "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "290367da5021f1bf999a2f56b5bbe395": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
     }
 }

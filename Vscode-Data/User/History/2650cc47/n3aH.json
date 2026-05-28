@@ -1,0 +1,6 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 12,
+    "files.autoSave": "afterDelay",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

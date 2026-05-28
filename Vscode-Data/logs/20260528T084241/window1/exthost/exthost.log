@@ -1,0 +1,105 @@
+2026-05-28 08:42:43.322 [info] Extension host with pid 8774 started
+2026-05-28 08:42:43.535 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-28 08:42:43.536 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-28 08:42:44.130 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-28 08:42:44.181 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-28 08:42:44.182 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-28 08:42:44.623 [info] Eager extensions activated
+2026-05-28 08:42:44.647 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:42:44.647 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:42:44.648 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:42:57.150 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onView:python-projects'
+2026-05-28 08:43:42.241 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:44:22.300 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:44:35.890 [info] Extension host terminating: received terminate message from renderer
+2026-05-28 08:44:35.912 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2026-05-28 08:44:35.915 [error] Error: Channel has been closed
+	at r (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:509:3935)
+	at Object.info (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:509:4305)
+	at Logger.info (/home/arthuruser001/.vscode/extensions/eamodio.gitlens-18.0.0/dist/gitlens.js:1570:38775)
+	at GkCliIntegrationProvider.stop (/home/arthuruser001/.vscode/extensions/eamodio.gitlens-18.0.0/dist/gitlens.js:2084:43479)
+	at GkCliIntegrationProvider.dispose (/home/arthuruser001/.vscode/extensions/eamodio.gitlens-18.0.0/dist/gitlens.js:2084:42056)
+	at /home/arthuruser001/.vscode/extensions/eamodio.gitlens-18.0.0/dist/gitlens.js:1995:66929
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/arthuruser001/.vscode/extensions/eamodio.gitlens-18.0.0/dist/gitlens.js:1995:66910)
+	at En (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+	at qP._fn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:18391)
+	at qP.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+	at hP._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:14708)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12010
+	at Array.map (<anonymous>)
+	at hP._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:11998)
+	at hP.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12349)
+	at i.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:508:1072)
+	at Gs (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:11700)
+	at cp.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:9847)
+	at E._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ss.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-28 08:44:35.918 [error] An error occurred when disposing the subscriptions for extension 'ms-python.vscode-python-envs':
+2026-05-28 08:44:35.918 [error] Error: Channel has been closed
+	at r (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:509:3935)
+	at Object.error (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:509:4394)
+	at Object.dispose (/home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:557403)
+	at /home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:556163
+	at Array.forEach (<anonymous>)
+	at A.dispose (/home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:556150)
+	at En (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+	at qP._fn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:18391)
+	at qP.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+	at hP._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:14708)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12010
+	at Array.map (<anonymous>)
+	at hP._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:11998)
+	at hP.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12349)
+	at i.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:508:1072)
+	at Gs (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:11700)
+	at cp.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:9847)
+	at E._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ss.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-28 08:44:35.919 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.te [as deactivate] (/home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:741102)
+	at hP._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:14483)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12010
+	at Array.map (<anonymous>)
+	at hP._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:11998)
+	at hP.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12349)
+	at i.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:508:1072)
+	at Gs (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:11700)
+	at cp.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:9847)
+	at E._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ss.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-28 08:44:35.920 [info] Extension host with pid 8774 exiting with code 0
+2026-05-28 08:44:37.574 [info] Extension host with pid 9250 started
+2026-05-28 08:44:37.574 [info] Skipping acquiring lock for /home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/Vscode-Data/User/workspaceStorage/290367da5021f1bf999a2f56b5bbe395.
+2026-05-28 08:44:37.686 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-28 08:44:37.687 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-28 08:44:37.913 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-28 08:44:38.103 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-28 08:44:38.103 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-28 08:44:38.362 [info] Eager extensions activated
+2026-05-28 08:44:38.392 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:44:38.393 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:44:38.393 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:44:38.515 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:44:38.518 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 08:46:23.090 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-28 08:46:23.090 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-28 08:46:23.090 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-28 08:46:36.087 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-05-28 08:59:49.930 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-28 08:59:55.933 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

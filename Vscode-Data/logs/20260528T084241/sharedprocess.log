@@ -1,0 +1,47 @@
+2026-05-28 08:43:07.067 [info] Uninstalling extension from the profile: ms-vscode.cpptools@1.32.2 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:07.128 [info] Marked extension as removed ms-vscode.cpptools-1.32.2-linux-x64
+2026-05-28 08:43:07.403 [info] Successfully uninstalled extension from the profile ms-vscode.cpptools@1.32.2 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:10.951 [info] Uninstalling extension from the profile: ms-vscode.cpptools-extension-pack@1.5.1 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:10.951 [info] Uninstalling extension from the profile: ms-vscode.cmake-tools@1.23.52 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:10.951 [info] Uninstalling extension from the profile: ms-vscode.cpp-devtools@0.5.13 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:10.951 [info] Uninstalling extension from the profile: ms-vscode.cpptools-themes@2.0.0 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:10.982 [info] Extensions is already requested to uninstall ms-vscode.cmake-tools
+2026-05-28 08:43:10.982 [info] Extensions is already requested to uninstall ms-vscode.cpp-devtools
+2026-05-28 08:43:10.982 [info] Extensions is already requested to uninstall ms-vscode.cpptools-themes
+2026-05-28 08:43:10.983 [info] Extensions is already requested to uninstall ms-vscode.cpp-devtools
+2026-05-28 08:43:10.983 [info] Extensions is already requested to uninstall ms-vscode.cpp-devtools
+2026-05-28 08:43:11.025 [info] Marked extension as removed ms-vscode.cpptools-extension-pack-1.5.1
+2026-05-28 08:43:11.044 [info] Marked extension as removed ms-vscode.cmake-tools-1.23.52
+2026-05-28 08:43:11.047 [info] Marked extension as removed ms-vscode.cpp-devtools-0.5.13
+2026-05-28 08:43:11.064 [info] Marked extension as removed ms-vscode.cpptools-themes-2.0.0
+2026-05-28 08:43:11.268 [info] Successfully uninstalled extension from the profile ms-vscode.cpptools-extension-pack@1.5.1 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:11.269 [info] Successfully uninstalled extension from the profile ms-vscode.cmake-tools@1.23.52 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:11.269 [info] Successfully uninstalled extension from the profile ms-vscode.cpp-devtools@0.5.13 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:11.269 [info] Successfully uninstalled extension from the profile ms-vscode.cpptools-themes@2.0.0 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:23.503 [info] Uninstalling extension from the profile: ms-python.python@2026.4.0 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:23.503 [info] Uninstalling extension from the profile: ms-python.debugpy@2026.6.0 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:23.503 [info] Uninstalling extension from the profile: ms-python.vscode-pylance@2026.2.1 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:23.504 [info] Uninstalling extension from the profile: ms-python.vscode-python-envs@1.30.0 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:23.532 [info] Extensions is already requested to uninstall ms-python.debugpy
+2026-05-28 08:43:23.532 [info] Extensions is already requested to uninstall ms-python.vscode-pylance
+2026-05-28 08:43:23.532 [info] Extensions is already requested to uninstall ms-python.vscode-python-envs
+2026-05-28 08:43:23.560 [info] Marked extension as removed ms-python.python-2026.4.0-linux-x64
+2026-05-28 08:43:23.578 [info] Marked extension as removed ms-python.debugpy-2026.6.0-linux-x64
+2026-05-28 08:43:23.603 [info] Marked extension as removed ms-python.vscode-pylance-2026.2.1
+2026-05-28 08:43:23.612 [info] Marked extension as removed ms-python.vscode-python-envs-1.30.0-linux-x64
+2026-05-28 08:43:23.794 [info] Successfully uninstalled extension from the profile ms-python.python@2026.4.0 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:23.794 [info] Successfully uninstalled extension from the profile ms-python.debugpy@2026.6.0 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:23.794 [info] Successfully uninstalled extension from the profile ms-python.vscode-pylance@2026.2.1 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:23.795 [info] Successfully uninstalled extension from the profile ms-python.vscode-python-envs@1.30.0 vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:43:38.465 [info] Getting Manifest... eamodio.gitlens
+2026-05-28 08:43:38.752 [info] Installing extension: eamodio.gitlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json","path":"/home/arthuruser001/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.121.0","date":"2026-05-19T11:51:53+02:00"}}
+2026-05-28 08:43:40.218 [info] Extension signature verification result for eamodio.gitlens: Success. Internal Code: 0. Executed: true. Duration: 882ms.
+2026-05-28 08:43:41.518 [info] Extracted extension to file:///home/arthuruser001/.vscode/extensions/eamodio.gitlens-18.0.0: eamodio.gitlens
+2026-05-28 08:43:41.551 [info] Renamed to /home/arthuruser001/.vscode/extensions/eamodio.gitlens-18.0.0
+2026-05-28 08:43:41.621 [info] Extension installed successfully: eamodio.gitlens vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json
+2026-05-28 08:44:10.062 [info] Getting Manifest... ritwickdey.liveserver
+2026-05-28 08:44:10.414 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json","path":"/home/arthuruser001/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.121.0","date":"2026-05-19T11:51:53+02:00"}}
+2026-05-28 08:44:11.801 [info] Extension signature verification result for ritwickdey.liveserver: Success. Internal Code: 0. Executed: true. Duration: 671ms.
+2026-05-28 08:44:21.926 [info] Extracted extension to file:///home/arthuruser001/.vscode/extensions/ritwickdey.liveserver-5.7.10: ritwickdey.liveserver
+2026-05-28 08:44:22.090 [info] Renamed to /home/arthuruser001/.vscode/extensions/ritwickdey.liveserver-5.7.10
+2026-05-28 08:44:22.125 [info] Extension installed successfully: ritwickdey.liveserver vscode-userdata:/home/arthuruser001/.vscode/extensions/extensions.json

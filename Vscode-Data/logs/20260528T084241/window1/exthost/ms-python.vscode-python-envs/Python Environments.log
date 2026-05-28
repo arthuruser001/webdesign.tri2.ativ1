@@ -1,0 +1,56 @@
+2026-05-28 08:42:57.309 [info] Python-envs extension version: 1.30.0
+2026-05-28 08:42:57.309 [info] 
+=== Python Envs Configuration Levels ===
+2026-05-28 08:42:57.309 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-05-28 08:42:57.309 [info] [pet] Starting Python Locator /home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/python-env-tools/bin/pet server
+2026-05-28 08:42:57.309 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-05-28 08:42:57.309 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-05-28 08:42:57.309 [info] Registering poetry manager (environments will be discovered lazily)
+2026-05-28 08:42:57.309 [warning] No workspace folder for relative search path: .venv
+2026-05-28 08:42:57.309 [warning] No workspace folder for relative search path: */.venv
+2026-05-28 08:42:57.309 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":[],"environmentDirectories":[],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/Vscode-Data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-28 08:42:57.547 [info] Discovered env: /usr/bin/python
+2026-05-28 08:42:57.624 [warning] No workspace folder for relative search path: .venv
+2026-05-28 08:42:57.624 [warning] No workspace folder for relative search path: */.venv
+2026-05-28 08:42:57.628 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":310,"breakdown":{"GlobalVirtualEnvs":1,"Locators":235,"Path":309,"Workspaces":0},"locators":{"Conda":235,"Homebrew":0,"LinuxGlobal":233,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":1,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-28 08:42:57.732 [info] Discovered env: /usr/bin/python
+2026-05-28 08:42:57.774 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at F (/home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:607042)
+	at runNextTicks (node:internal/process/task_queues:64:5)
+	at process.processImmediate (node:internal/timers:452:9)
+	at async L (/home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:607167)
+	at async t.registerCondaFeatures (/home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:627092)
+	at async t.safeRegister (/home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:282415)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/arthuruser001/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:752995)]
+2026-05-28 08:42:57.775 [info] [interpreterSelection] Applying initial environment selection for 0 workspace folder(s)
+2026-05-28 08:42:57.778 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":141,"breakdown":{"GlobalVirtualEnvs":0,"Locators":111,"Path":141,"Workspaces":0},"locators":{"Conda":88,"Homebrew":0,"LinuxGlobal":70,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-28 08:42:57.883 [info] [interpreterSelection] global: Python 3.14.4 (source: autoDiscovery)
+2026-05-28 08:42:57.889 [info] Python API: Changed environment from undefined to Python 3.14.4 for: global
+2026-05-28 08:42:57.889 [info] Internal: Changed environment from undefined to Python 3.14.4 for: global
+2026-05-28 08:42:57.891 [info] Refreshing pyenv environments
+2026-05-28 08:42:57.897 [info] Pipenv not found via settings, cache, or PATH
+2026-05-28 08:42:57.898 [info] Refreshing pipenv environments
+2026-05-28 08:42:57.899 [info] Pipenv not found via settings, cache, or PATH
+2026-05-28 08:42:57.899 [info] Found 0 pipenv environments
+2026-05-28 08:42:57.900 [info] Pipenv not found via settings, cache, or PATH
+2026-05-28 08:42:57.904 [info] Refreshing poetry environments
+2026-05-28 08:42:57.905 [info] Poetry executable not found
+2026-05-28 08:42:57.910 [info] Environment discovery complete: 1 environments found (Global: 1)
+2026-05-28 08:43:23.851 [info] [interpreterSelection] Interpreter settings changed, re-evaluating priority chain for all scopes
+2026-05-28 08:43:23.851 [info] [interpreterSelection] Applying initial environment selection for 0 workspace folder(s)
+2026-05-28 08:43:23.964 [info] [interpreterSelection] global: Python 3.14.4 (source: autoDiscovery)
