@@ -1,0 +1,24 @@
+2026-05-28 09:14:24.139 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-05-28 09:14:24.139 [info]    [            1] GitLens v18.0.0  activating in Visual Studio Code (1.121.0) on the desktop; mode=production,language='pt-br', logLevel='info', defaultDateLocale='null' (vscode|a912e3d1ac70546cc1237f0e1373186b2cd7fe8c783004b4de2ee18858f3ddff|486276c0-8811-4b63-87a7-c8094c3b67191779970423177)
+2026-05-28 09:14:24.139 [info]    [   75 →    78] GlCliGitProvider.onDidOpenRepository(e=file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201, source=scm) repository=<unknown>; deferring to getOrOpenRepository
+2026-05-28 09:14:24.139 [info]    [            1] GitLens v18.0.0 activated [129ms]
+2026-05-28 09:14:24.139 [info]    [   74 →    75] GlCliGitProvider.findGit Git (2.54.0) found in /usr/bin/git [83ms]
+2026-05-28 09:14:24.139 [info]    [   74 →    98] GlCliGitProvider.repositorySearch(/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1) searching (depth=1)...
+2026-05-28 09:14:24.139 [info]    [GIT      49ms] [/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [49ms]
+2026-05-28 09:14:24.139 [info]    [IPC          ] CLI capability published on http://127.0.0.1:40059
+2026-05-28 09:14:24.140 [info]    [   74 →    98] GlCliGitProvider.repositorySearch(/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1) found root repository in '/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1'
+2026-05-28 09:14:24.149 [info]    [   73 →    74] GlCliGitProvider.discoverRepositories auto-opening 1 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-05-28 09:14:24.212 [info]    [GIT      17ms] [/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [17ms]
+2026-05-28 09:14:24.231 [info]    [GIT      16ms] [/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1] git remote -v [16ms]
+2026-05-28 09:14:24.247 [info]    [GIT      12ms] [/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1] git config --get -f /home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/.git/gk/config gk.defaultRemote [12ms]
+2026-05-28 09:14:30.111 [warning] [   87 →    f9] GkCliIntegrationProvider.checkCliUpdateRequired completed [*3107ms] (slow)
+2026-05-28 09:14:30.111 [info]    [CLI          ] CLI core version is 3.1.65
+2026-05-28 09:14:30.868 [warning] [   e4 →    e5] VSCodeGkMcpProvider.getMcpConfigurationFromCLICore completed [*6255ms] (slow)
+2026-05-28 09:14:30.868 [warning] [   e3 →    e4] VSCodeGkMcpProvider.getMcpConfigurationFromCLI completed [*6255ms] (slow)
+2026-05-28 09:14:30.869 [warning] [   87 →    e3] VSCodeGkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/.Vscode-Data/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":"<env:@b99a>","version":"3.1.64","cwd":{"$mid":1,"path":"/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/.Vscode-Data/User/globalStorage/eamodio.gitlens","scheme":"vscode-userdata"}}] [*6256ms] (slow)
+2026-05-28 09:14:59.454 [info]    [GIT      13ms] [/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1] git ls-files -- start.sh [13ms]
+2026-05-28 09:14:59.502 [info]    [GIT      44ms] [/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1] git shortlog -s --all --no-min-parents --since=1.year.ago [44ms]
+2026-05-28 09:14:59.504 [info]    [GIT      46ms] [/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1] git rev-list --max-parents=0 HEAD -- [46ms]
+2026-05-28 09:14:59.529 [info]    [  124 →   125] LocalSharedGkStorageLocationProvider.load Using shared GK path: /home/arthuruser001/.local/share/gk
+2026-05-28 09:15:03.222 [info]    [GIT      12ms] [/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1] git config --get-regex -f /home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition|agent-last-activity)$ [12ms]
+2026-05-28 09:15:03.223 [info]    [GIT      25ms] [/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ refs/tags/ [25ms]

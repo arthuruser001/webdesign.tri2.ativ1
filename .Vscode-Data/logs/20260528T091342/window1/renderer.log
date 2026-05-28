@@ -1,0 +1,8 @@
+2026-05-28 09:13:43.874 [info] Started local extension host with pid 13953.
+2026-05-28 09:13:44.131 [info] Started initializing default profile extensions in extensions installation folder. file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201/.Vscode-Extensions
+2026-05-28 09:13:44.288 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201/.Vscode-Extensions Não é possível criar o arquivo 'vscode-userdata:/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/.Vscode-Extensions/extensions.json' que já existe quando o sinalizador de substituição não está definido
+2026-05-28 09:13:44.289 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201/.Vscode-Extensions
+2026-05-28 09:13:45.401 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-28 09:13:46.012 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-05-28 09:13:46.798 [info] [perf] Render performance baseline is 27ms
+2026-05-28 09:13:50.394 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
