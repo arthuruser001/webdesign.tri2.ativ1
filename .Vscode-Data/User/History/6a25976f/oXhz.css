@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+
+  form {
+    border: 1px solid black;
+    padding: 1rem;
+  }
+}

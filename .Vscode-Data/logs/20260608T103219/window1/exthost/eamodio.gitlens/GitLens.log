@@ -1,0 +1,85 @@
+2026-06-08 10:32:24.349 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-08 10:32:24.349 [info]    [            1] GitLens v18.0.0  activating in Visual Studio Code (1.121.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|a912e3d1ac70546cc1237f0e1373186b2cd7fe8c783004b4de2ee18858f3ddff|334078b7-e463-4435-adcf-726fbd03cc581780925541164)
+2026-06-08 10:32:24.349 [info]    [            1] GitLens v18.0.0 activated [135ms]
+2026-06-08 10:32:24.349 [info]    [IPC          ] CLI capability published on http://127.0.0.1:32943
+2026-06-08 10:32:27.410 [warning] [    6 →     7] Storage.getSecret completed [*3353ms] (slow)
+2026-06-08 10:32:27.410 [warning] [   11 →    12] AccountAuthenticationProvider.getSessions(e=[gitlens]) completed • Found 0 sessions [*3344ms] (slow)
+2026-06-08 10:32:27.413 [warning] [   10 →    11] SubscriptionService.getOrCreateSession(e=false, t=undefined, i={}) completed • No valid session was found [*3347ms] (slow)
+2026-06-08 10:32:27.413 [warning] [    f →    10] SubscriptionService.ensureSession(e=false, t=undefined) completed [*3347ms] (slow)
+2026-06-08 10:32:27.414 [warning] [    f →    16] Storage.getSecret completed [*3344ms] (slow)
+2026-06-08 10:32:27.414 [warning] [   8f →    90] Storage.getSecret completed [*3214ms] (slow)
+2026-06-08 10:32:27.425 [warning] [   8d →    8f] GitHubAuthenticationProvider.getSession(e={"domain":"github.com","scopes":["repo","read:user","user:email"]}, t={"createIfNeeded":false,"source":"integrations"}) completed [*3223ms] (slow)
+2026-06-08 10:32:27.732 [warning] [   75 →    8d] GitHubIntegration.isConnected returned false [*3534ms] (slow)
+2026-06-08 10:32:27.790 [warning] [    c →     d] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*3731ms] (slow)
+2026-06-08 10:32:27.791 [warning] [    b →     c] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*3731ms] (slow)
+2026-06-08 10:32:41.838 [error] RunError: Command failed: /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/globalStorage/eamodio.gitlens/gk mcp config vscode --source=gitlens --scheme=vscode
+   [   9a →    9b] VSCodeGkMcpProvider.getMcpConfigurationFromCLICore Error getting MCP configuration
+2026-06-08 10:32:41.838 [warning] [   9a →    9b] VSCodeGkMcpProvider.getMcpConfigurationFromCLICore completed [*16988ms] (slow)
+2026-06-08 10:32:41.838 [warning] [   99 →    9a] VSCodeGkMcpProvider.getMcpConfigurationFromCLI completed [*16988ms] (slow)
+2026-06-08 10:32:41.838 [warning] [   80 →    99] VSCodeGkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [] [*16989ms] (slow)
+2026-06-08 10:32:54.800 [warning] [   80 →    a0] GkCliIntegrationProvider.checkCliUpdateRequired completed [*27640ms] (slow)
+2026-06-08 10:32:54.800 [info]    [CLI          ] CLI core version is 3.1.67
+2026-06-08 10:32:55.884 [info]    WebviewsController.resolveWebviewView(gitlens.views.welcome|13136bb4-6d71-4bfc-81c8-ee402fe43113): hasRestoreState=false, parentVisible=true
+2026-06-08 10:32:55.897 [info]    WebviewsController.resolveWebviewView(gitlens.views.home|3fc5534d-7c5e-4a6b-b91e-dbe32d3fb055): hasRestoreState=false, parentVisible=true
+2026-06-08 10:32:55.922 [info]    WebviewController(gitlens.views.welcome|13136bb4-6d71-4bfc-81c8-ee402fe43113): webview.html set (reason=show:loading, length=3166)
+2026-06-08 10:32:55.924 [info]    WebviewController(gitlens.views.home|3fc5534d-7c5e-4a6b-b91e-dbe32d3fb055): webview.html set (reason=show:loading, length=2162)
+2026-06-08 10:32:56.111 [info]    WebviewController(gitlens.views.welcome|13136bb4-6d71-4bfc-81c8-ee402fe43113): WebviewReadyRequest #1 (id=webview:1, clientId=wv-l8v5pvuz, clientLoadedAt=1780925576098, bootstrap=false, msgAge=2ms, sinceLastHtmlSet=189ms, wasAlreadyReady=false, replayEligible=true, replayEnabled=false, replayBufferSize=0, parentVisible=true)
+2026-06-08 10:32:56.111 [info]    WebviewController(gitlens.views.welcome|13136bb4-6d71-4bfc-81c8-ee402fe43113): replay window opened (30000ms)
+2026-06-08 10:32:56.144 [info]    WebviewController(gitlens.views.home|3fc5534d-7c5e-4a6b-b91e-dbe32d3fb055): WebviewReadyRequest #1 (id=webview:1, clientId=wv-n5hizcdi, clientLoadedAt=1780925576124, bootstrap=false, msgAge=1ms, sinceLastHtmlSet=220ms, wasAlreadyReady=false, replayEligible=true, replayEnabled=false, replayBufferSize=0, parentVisible=true)
+2026-06-08 10:32:56.144 [info]    WebviewController(gitlens.views.home|3fc5534d-7c5e-4a6b-b91e-dbe32d3fb055): replay window opened (30000ms)
+2026-06-08 10:32:56.236 [error] Error: Authentication required   [   f4 →    f5] ServerConnection.gkFetch — failed [1ms]
+2026-06-08 10:32:56.236 [error] Error: Authentication required   [   f3 →    f4] ServerConnection.fetchGkApi — failed [6ms]
+2026-06-08 10:33:21.688 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-08 10:33:21.688 [info]    [            1] GitLens v18.0.0  activating in Visual Studio Code (1.121.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|a912e3d1ac70546cc1237f0e1373186b2cd7fe8c783004b4de2ee18858f3ddff|434f4afc-a87a-42c3-80dc-ed0533e740331780925594863)
+2026-06-08 10:33:21.688 [info]    [            1] GitLens v18.0.0 activated [139ms]
+2026-06-08 10:33:21.688 [info]    [IPC          ] CLI capability published on http://127.0.0.1:38347
+2026-06-08 10:33:21.716 [info]    [   75 →    76] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [369ms]
+2026-06-08 10:33:21.718 [info]    [   75 →    9e] GlCliGitProvider.repositorySearch(/home/alunos/.arthuruser001/webdesign.tri2.ativ1) searching (depth=1)...
+2026-06-08 10:33:21.727 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [9ms]
+2026-06-08 10:33:21.732 [info]    [   75 →    9e] GlCliGitProvider.repositorySearch(/home/alunos/.arthuruser001/webdesign.tri2.ativ1) found root repository in '/home/alunos/.arthuruser001/webdesign.tri2.ativ1'
+2026-06-08 10:33:21.737 [info]    [   a8 →    a9] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1': no existing repository found
+2026-06-08 10:33:21.755 [info]    [   75 →    76] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1)
+2026-06-08 10:33:21.787 [info]    [   74 →    75] GlCliGitProvider.discoverRepositories auto-opening 1 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-08 10:33:21.863 [info]    [GIT      10ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git remote -v [10ms]
+2026-06-08 10:33:21.872 [info]    [GIT       6ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get-regex ^branch\..*\.gk- [6ms]
+2026-06-08 10:33:21.887 [info]    [GIT      13ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config gk.defaultRemote [13ms]
+2026-06-08 10:33:22.756 [info]    [   75 →    76] GlCliGitProvider.findGit fireRepositoryOpened: firing 1 opened repo(s) from vscode.git
+2026-06-08 10:33:22.756 [info]    [   85 →    fc] GlCliGitProvider.onDidOpenRepository(e=file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1, source=scm) repository=GlRepository(/home/alunos/.arthuruser001/webdesign.tri2.ativ1|1), closed:false→false (closedByUser cleared)
+2026-06-08 10:33:24.409 [info]    [CLI          ] CLI core version is 3.1.67
+2026-06-08 10:33:28.288 [warning] [   f1 →    f8] GlCliGitProvider.getRemoteVisibility(remote=https://github.com/arthuruser001/webdesign.tri2.ativ1.git) returned public [*5991ms] (slow)
+2026-06-08 10:33:28.288 [warning] [   f6 →    f9] GlCliGitProvider.getRemoteVisibility(remote=https://github.com/arthuruser001/webdesign.tri2.ativ1.git) returned public [*5991ms] (slow)
+2026-06-08 10:33:28.288 [warning] [   ef →    f1] GlCliGitProvider.visibility(e=/home/alunos/.arthuruser001/webdesign.tri2.ativ1) returned public [*5992ms] (slow)
+2026-06-08 10:33:28.288 [warning] [   f4 →    f6] GlCliGitProvider.visibility(e=/home/alunos/.arthuruser001/webdesign.tri2.ativ1) returned public [*5992ms] (slow)
+2026-06-08 10:33:28.289 [warning] [   ec →    ef] GitProviderService.visibilityCore(e=/home/alunos/.arthuruser001/webdesign.tri2.ativ1) returned public [*5993ms] (slow)
+2026-06-08 10:33:28.289 [warning] [   f3 →    f4] GitProviderService.visibilityCore returned public [*5992ms] (slow)
+2026-06-08 10:33:28.289 [warning] [   ea →    ec] GitProviderService.visibility(e=/home/alunos/.arthuruser001/webdesign.tri2.ativ1) returned public [*5993ms] (slow)
+2026-06-08 10:33:28.289 [warning] [   e9 →    ea] GitProviderService.accessCore(e=undefined) returned allowed=true, plan=community [*5994ms] (slow)
+2026-06-08 10:33:28.290 [warning] [   ea →    f3] GitProviderService.visibility returned public [*5993ms] (slow)
+2026-06-08 10:33:28.290 [warning] [   be →    e9] GitProviderService.access returned allowed=true, plan=community [*5994ms] (slow)
+2026-06-08 10:33:46.044 [info]    [GIT      12ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [12ms]
+2026-06-08 10:33:56.805 [info]    [GIT      10ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-list --max-parents=0 HEAD -- [10ms]
+2026-06-08 10:33:56.807 [info]    [GIT      10ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git shortlog -s --all --no-min-parents --since=1.year.ago [10ms]
+2026-06-08 10:33:56.813 [info]    [GIT       5ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git remote -v [5ms]
+2026-06-08 10:33:56.821 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-08 10:33:56.827 [info]    [GIT       5ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config gk.defaultRemote [5ms]
+2026-06-08 10:33:56.830 [info]    [  1b4 →   1b5] LocalSharedGkStorageLocationProvider.load Using shared GK path: /home/alunos/.local/share/gk
+2026-06-08 10:34:31.425 [info]    [GIT      13ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- style.css [13ms]
+2026-06-08 10:34:46.128 [info]    [GIT      18ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [18ms]
+2026-06-08 10:35:51.748 [info]    [GIT      10ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ refs/tags/ [10ms]
+2026-06-08 10:35:51.750 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get-regex -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition|agent-last-activity)$ [7ms]
+2026-06-08 10:35:51.758 [info]    [GIT       5ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config branch.main.gk-last-accessed [5ms]
+2026-06-08 10:35:51.766 [info]    [GIT       6ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config branch.main.gk-last-accessed 2026-06-08T13:35:51.751Z [6ms]
+2026-06-08 10:56:59.512 [info]    [GIT      10ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [10ms]
+2026-06-08 10:58:01.557 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [8ms]
+2026-06-08 10:59:05.227 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [8ms]
+2026-06-08 11:00:07.922 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [7ms]
+2026-06-08 11:00:48.584 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [9ms]
+2026-06-08 11:08:14.727 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [7ms]
+2026-06-08 11:08:20.265 [info]    [GIT      11ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- main.css [11ms]
+2026-06-08 11:09:21.266 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- main.css [8ms]
+2026-06-08 11:10:27.147 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- main.css [8ms]
+2026-06-08 11:15:11.587 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- main.css [7ms]
+2026-06-08 11:16:27.089 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- main.css [7ms]
+2026-06-08 11:17:59.642 [info]    [GIT      10ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- main.css [10ms]
+2026-06-08 11:28:03.159 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- main.css [7ms]
+2026-06-08 11:29:04.826 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- main.css [8ms]

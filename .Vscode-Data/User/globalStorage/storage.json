@@ -1,22 +1,29 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "a912e3d1ac70546cc1237f0e1373186b2cd7fe8c783004b4de2ee18858f3ddff",
-    "telemetry.devDeviceId": "9b584a88-7b42-4234-ac12-c053f5386178",
+    "telemetry.devDeviceId": "fe2891ea-6f40-4aec-b2bc-76df791e990b",
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201"
+                "folderUri": "file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1780925540409"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201": "__default__profile__"
+            "file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201": "__default__profile__",
+            "file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1780925540409": "__default__profile__"
+        }
     },
     "theme": "vs-dark",
     "themeBackground": "#121314",
@@ -42,7 +49,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 300,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -50,14 +57,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201",
-            "backupPath": "/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/Vscode-Data/Backups/e692051e64398ed3a6dfc9bd885cc315",
+            "folder": "file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1",
+            "backupPath": "/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/Backups/6bd077ebbae4b4d81fd973eed5d43d5f",
             "uiState": {
                 "mode": 1,
                 "x": 0,
                 "y": 0,
-                "width": 1720,
-                "height": 1440
+                "width": 1920,
+                "height": 1080
             }
         },
         "openedWindows": []
@@ -69,6 +76,10 @@
             "workspaces": {
                 "290367da5021f1bf999a2f56b5bbe395": {
                     "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "74875d63292a579889afebd7adc7e137": {
+                    "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }
             }

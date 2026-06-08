@@ -1,0 +1,4 @@
+2026-06-08 10:32:24.340 [info] Log level: Info
+2026-06-08 10:33:16.616 [info] Log level: Info
+2026-06-08 10:33:22.458 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-06-08 10:33:32.214 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for arthuruser001/webdesign.tri2.ativ1: Error: No GitHub authentication session available.

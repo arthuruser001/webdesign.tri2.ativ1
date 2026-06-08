@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+
+  form {
+    display: grid;
+    border: 1px solid black;
+    padding: 1rem;
+    gap: 1rem;
+
+    label {
+      display: block;
+    }
+
+    > :last-child {
+      display: flex;
+      justify-content: flex-end;
+      gap: .25rem;
+        > :first-child {
+          background: transparent;
+          border: 0 none;
+        }
+    }
+  }
+}

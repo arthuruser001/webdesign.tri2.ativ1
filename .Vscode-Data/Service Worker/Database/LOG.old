@@ -1,2 +1,3 @@
-2026/05/28-08:43:42.150 21ee Creating DB /home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/Vscode-Data/Service Worker/Database since it was missing.
-2026/05/28-08:43:42.170 21ee Reusing MANIFEST /home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/Vscode-Data/Service Worker/Database/MANIFEST-000001
+2026/05/28-09:13:42.544 362d Reusing MANIFEST /home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/.Vscode-Data/Service Worker/Database/MANIFEST-000001
+2026/05/28-09:13:42.550 362d Recovering log #3
+2026/05/28-09:13:42.551 362d Reusing old log /home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1/.Vscode-Data/Service Worker/Database/000003.log 

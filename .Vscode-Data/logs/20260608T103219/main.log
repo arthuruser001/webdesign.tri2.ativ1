@@ -1,0 +1,9 @@
+2026-06-08 10:32:19.760 [info] StorageMainService: creating application shared storage
+2026-06-08 10:32:19.760 [error] Invalid path provided: /home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1, ENOENT: no such file or directory, stat '/home/arthuruser001/Trabalhos Escolares/Webdesign/Trimestre 2/Atividade 1'
+2026-06-08 10:32:19.760 [info] [shared storage] Creating shared storage database at '/home/alunos/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-08 10:32:19.760 [info] [shared storage] Initializing fallback application storage (path: /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/globalStorage/state.vscdb)
+2026-06-08 10:32:19.823 [info] [shared storage] Fallback application storage initialized with 110 items
+2026-06-08 10:32:19.827 [info] update#setState idle
+2026-06-08 10:32:49.829 [info] update#setState checking for updates
+2026-06-08 10:32:50.044 [info] update#setState available for download
+2026-06-08 10:33:14.235 [info] Extension host with pid 6413 exited with code: 0, signal: unknown.
