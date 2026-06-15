@@ -1,0 +1,251 @@
+2026-06-15 10:28:16.924 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-15 10:28:16.924 [info]    [            1] GitLens v18.0.0  activating in Visual Studio Code (1.121.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|a912e3d1ac70546cc1237f0e1373186b2cd7fe8c783004b4de2ee18858f3ddff|12d75e71-0825-43f1-bc24-0ef2db9755621781530085998)
+2026-06-15 10:28:16.924 [info]    [            1] GitLens v18.0.0 activated [189ms]
+2026-06-15 10:28:16.924 [info]    [IPC          ] CLI capability published on http://127.0.0.1:37077
+2026-06-15 10:28:16.924 [info]    [   75 →    76] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [456ms]
+2026-06-15 10:28:16.924 [info]    [   75 →    9d] GlCliGitProvider.repositorySearch(/home/alunos/.arthuruser001/webdesign.tri2.ativ1) searching (depth=1)...
+2026-06-15 10:28:16.927 [info]    [GIT      14ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [14ms]
+2026-06-15 10:28:16.945 [info]    [   75 →    9d] GlCliGitProvider.repositorySearch(/home/alunos/.arthuruser001/webdesign.tri2.ativ1) found root repository in '/home/alunos/.arthuruser001/webdesign.tri2.ativ1'
+2026-06-15 10:28:16.951 [info]    [   a9 →    aa] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1': no existing repository found
+2026-06-15 10:28:16.975 [info]    [   75 →    76] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1)
+2026-06-15 10:28:17.040 [info]    [   74 →    75] GlCliGitProvider.discoverRepositories auto-opening 1 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-15 10:28:17.190 [info]    [GIT      10ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git remote -v [10ms]
+2026-06-15 10:28:17.208 [info]    [GIT      11ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get-regex ^branch\..*\.gk- [11ms]
+2026-06-15 10:28:17.233 [info]    [GIT      23ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config gk.defaultRemote [23ms]
+2026-06-15 10:28:17.976 [info]    [   75 →    76] GlCliGitProvider.findGit fireRepositoryOpened: firing 1 opened repo(s) from vscode.git
+2026-06-15 10:28:17.976 [info]    [   85 →    fd] GlCliGitProvider.onDidOpenRepository(e=file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1, source=scm) repository=GlRepository(/home/alunos/.arthuruser001/webdesign.tri2.ativ1|1), closed:false→false (closedByUser cleared)
+2026-06-15 10:28:18.743 [info]    [GIT       5ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git remote -v [5ms]
+2026-06-15 10:28:18.751 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-15 10:28:18.757 [info]    [GIT       5ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config gk.defaultRemote [5ms]
+2026-06-15 10:28:19.542 [info]    [CLI          ] CLI core version is 3.1.68
+2026-06-15 10:28:20.967 [warning] [   e6 →    e7] VSCodeGkMcpProvider.getMcpConfigurationFromCLICore completed [*3580ms] (slow)
+2026-06-15 10:28:20.967 [warning] [   e5 →    e6] VSCodeGkMcpProvider.getMcpConfigurationFromCLI completed [*3580ms] (slow)
+2026-06-15 10:28:20.969 [warning] [   85 →    e5] VSCodeGkMcpProvider.provideMcpServerDefinitions({"isCancellationRequested":false}) returned [{"label":"GitKraken","command":"/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/globalStorage/eamodio.gitlens/gk","args":["mcp","--host=vscode","--source=gitlens","--scheme=vscode"],"env":"<env:@5185>","version":"3.1.64","cwd":{"$mid":1,"path":"/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/globalStorage/eamodio.gitlens","scheme":"vscode-userdata"}}] [*3580ms] (slow)
+2026-06-15 10:28:52.065 [info]    [GIT      11ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-list --max-parents=0 HEAD -- [11ms]
+2026-06-15 10:28:52.068 [info]    [GIT      12ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git shortlog -s --all --no-min-parents --since=1.year.ago [12ms]
+2026-06-15 10:28:52.069 [info]    [  11e →   11f] LocalSharedGkStorageLocationProvider.load Using shared GK path: /home/alunos/.local/share/gk
+2026-06-15 10:29:38.617 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [9ms]
+2026-06-15 10:29:38.625 [info]    [GIT       6ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get-regex ^user\.(name|email)$ [6ms]
+2026-06-15 10:29:38.632 [info]    [GIT       6ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git check-mailmap Your Name <you@example.com> [6ms]
+2026-06-15 10:29:38.640 [info]    [GIT:→1       ] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- index.html · starting...
+2026-06-15 10:29:38.660 [info]    [GIT:←1   25ms] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- index.html [25ms]
+2026-06-15 10:29:38.723 [info]    [GIT      46ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D --summary -n1 34da9ab9f2006d571dd0f0d8bda6d377260e66fa^ -- index.html [46ms]
+2026-06-15 10:29:38.724 [info]    [GIT      62ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./index.html -- [62ms]
+2026-06-15 10:29:38.836 [info]    [GIT     152ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 34da9ab9f2006d571dd0f0d8bda6d377260e66fa -- [152ms]
+2026-06-15 10:30:46.962 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ refs/tags/ [9ms]
+2026-06-15 10:30:46.964 [info]    [GIT       6ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get-regex -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition|agent-last-activity)$ [6ms]
+2026-06-15 10:30:46.971 [info]    [GIT       5ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config branch.main.gk-last-accessed [5ms]
+2026-06-15 10:30:46.978 [info]    [GIT       5ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config branch.main.gk-last-accessed 2026-06-15T13:30:46.965Z [5ms]
+2026-06-15 10:31:39.115 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git cat-file commit 34da9ab9f2006d571dd0f0d8bda6d377260e66fa [7ms]
+2026-06-15 10:47:48.218 [info]    [GIT      12ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [12ms]
+2026-06-15 10:47:48.231 [info]    [GIT:→2       ] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- index.html · starting...
+2026-06-15 10:47:48.248 [info]    [GIT:←2   23ms] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- index.html [23ms]
+2026-06-15 10:47:48.272 [info]    [GIT      22ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./index.html -- [22ms]
+2026-06-15 10:47:48.322 [info]    [GIT      58ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 34da9ab9f2006d571dd0f0d8bda6d377260e66fa -- [58ms]
+2026-06-15 10:48:17.777 [info]    [GIT      10ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [10ms]
+2026-06-15 10:49:49.578 [info]    WebviewsController.resolveWebviewView(gitlens.views.commitDetails|a1f02e13-1783-4e74-bfa6-66a34b36a052): hasRestoreState=false, parentVisible=true
+2026-06-15 10:49:49.625 [info]    WebviewsController.resolveWebviewView(gitlens.views.timeline|15870da9-dba3-4165-aea8-afede71ef2ea): hasRestoreState=false, parentVisible=true
+2026-06-15 10:49:49.629 [info]    [GIT      89ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [89ms]
+2026-06-15 10:49:49.645 [info]    [GIT      11ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-tree -l HEAD -- aluno-cadastro.html [11ms]
+2026-06-15 10:49:49.684 [info]    [GIT      34ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get core.excludesFile [34ms]
+2026-06-15 10:49:49.705 [info]    WebviewController(gitlens.views.commitDetails|a1f02e13-1783-4e74-bfa6-66a34b36a052): webview.html set (reason=show:loading, length=2680)
+2026-06-15 10:49:49.705 [info]    WebviewController(gitlens.views.timeline|15870da9-dba3-4165-aea8-afede71ef2ea): webview.html set (reason=show:loading, length=2590)
+2026-06-15 10:49:50.020 [info]    WebviewController(gitlens.views.timeline|15870da9-dba3-4165-aea8-afede71ef2ea): WebviewReadyRequest #1 (id=webview:1, clientId=wv-oaudrzjl, clientLoadedAt=1781531389993, bootstrap=false, msgAge=6ms, sinceLastHtmlSet=313ms, wasAlreadyReady=false, replayEligible=false, replayEnabled=false, replayBufferSize=0, parentVisible=true)
+2026-06-15 10:49:50.034 [info]    WebviewController(gitlens.views.commitDetails|a1f02e13-1783-4e74-bfa6-66a34b36a052): WebviewReadyRequest #1 (id=webview:1, clientId=wv-z5r7patw, clientLoadedAt=1781531389994, bootstrap=false, msgAge=4ms, sinceLastHtmlSet=334ms, wasAlreadyReady=false, replayEligible=false, replayEnabled=false, replayBufferSize=0, parentVisible=true)
+2026-06-15 10:49:50.464 [info]    [GIT     792ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [792ms]
+2026-06-15 10:54:17.049 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [9ms]
+2026-06-15 10:55:28.221 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [8ms]
+2026-06-15 10:56:28.263 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [9ms]
+2026-06-15 10:57:28.013 [info]    WebviewsController.resolveWebviewView(gitlens.views.welcome|23c6314e-1754-4587-ac55-f2d110ab0262): hasRestoreState=false, parentVisible=true
+2026-06-15 10:57:28.034 [info]    WebviewsController.resolveWebviewView(gitlens.views.home|1936fc89-4a33-45f2-ac6e-af291fea13c4): hasRestoreState=false, parentVisible=true
+2026-06-15 10:57:28.061 [info]    WebviewController(gitlens.views.welcome|23c6314e-1754-4587-ac55-f2d110ab0262): webview.html set (reason=show:loading, length=3166)
+2026-06-15 10:57:28.105 [info]    WebviewController(gitlens.views.home|1936fc89-4a33-45f2-ac6e-af291fea13c4): webview.html set (reason=show:loading, length=2162)
+2026-06-15 10:57:28.235 [info]    WebviewController(gitlens.views.welcome|23c6314e-1754-4587-ac55-f2d110ab0262): WebviewReadyRequest #1 (id=webview:1, clientId=wv-vo1gw8t0, clientLoadedAt=1781531848225, bootstrap=false, msgAge=1ms, sinceLastHtmlSet=174ms, wasAlreadyReady=false, replayEligible=false, replayEnabled=false, replayBufferSize=0, parentVisible=true)
+2026-06-15 10:57:28.254 [info]    WebviewController(gitlens.views.home|1936fc89-4a33-45f2-ac6e-af291fea13c4): WebviewReadyRequest #1 (id=webview:1, clientId=wv-pxla7npw, clientLoadedAt=1781531848234, bootstrap=false, msgAge=1ms, sinceLastHtmlSet=148ms, wasAlreadyReady=false, replayEligible=false, replayEnabled=false, replayBufferSize=0, parentVisible=true)
+2026-06-15 10:57:28.435 [error] Error: Authentication required   [ 105e →  105f] ServerConnection.gkFetch — failed [22ms]
+2026-06-15 10:57:28.435 [error] Error: Authentication required   [ 105d →  105e] ServerConnection.fetchGkApi — failed [30ms]
+2026-06-15 10:57:28.444 [info]    [GIT      27ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git worktree list --porcelain [27ms]
+2026-06-15 10:57:29.159 [info]    [GIT     683ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [683ms]
+2026-06-15 10:57:32.079 [info]    [GIT     647ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [647ms]
+2026-06-15 10:57:34.331 [info]    [GIT     618ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [618ms]
+2026-06-15 10:57:37.468 [info]    [GIT     631ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [631ms]
+2026-06-15 10:57:39.267 [info]    [GIT      17ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [17ms]
+2026-06-15 10:57:39.546 [info]    [GIT       6ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-tree -l HEAD -- aluno-cadastro.html [6ms]
+2026-06-15 10:57:39.686 [info]    [GIT     635ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [635ms]
+2026-06-15 10:57:40.228 [info]    [GIT     679ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [679ms]
+2026-06-15 10:57:41.206 [info]    [GIT     703ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [703ms]
+2026-06-15 10:58:41.678 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-15 10:58:41.678 [info]    [            1] GitLens v18.1.0  activating in Visual Studio Code (1.121.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|a912e3d1ac70546cc1237f0e1373186b2cd7fe8c783004b4de2ee18858f3ddff|12d75e71-0825-43f1-bc24-0ef2db9755621781530085998)
+2026-06-15 10:58:41.678 [info]    GitLens upgraded from v18.0.0 to v18.1.0; window.focused=true
+2026-06-15 10:58:41.678 [info]    [            1] GitLens v18.1.0 activated [137ms]
+2026-06-15 10:58:41.678 [info]    [   76 →    77] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [118ms]
+2026-06-15 10:58:41.678 [info]    [IPC          ] CLI capability published on http://127.0.0.1:44499
+2026-06-15 10:58:42.105 [info]    [   76 →    77] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1)
+2026-06-15 10:58:42.192 [info]    [   77 →    c2] GlCliGitProvider.onDidOpenRepository(e=file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1, source=scm) repository=<unknown>; deferring to getOrAddRepository
+2026-06-15 10:58:42.192 [info]    [   75 →    76] GlCliGitProvider.scmRepositorySearch found root repository in '/home/alunos/.arthuruser001/webdesign.tri2.ativ1'
+2026-06-15 10:58:42.215 [info]    [GIT      23ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [23ms]
+2026-06-15 10:58:42.261 [info]    [GIT      30ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [30ms]
+2026-06-15 10:58:42.355 [info]    [GIT      11ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git remote -v [11ms]
+2026-06-15 10:58:42.369 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get-regex -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config . [9ms]
+2026-06-15 10:58:43.115 [info]    [   76 →    77] GlCliGitProvider.findGit fireRepositoryOpened: firing 1 opened repo(s) from vscode.git
+2026-06-15 10:58:43.115 [info]    [   8c →   111] GlCliGitProvider.onDidOpenRepository(e=file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1, source=scm) repository=GlRepository(/home/alunos/.arthuruser001/webdesign.tri2.ativ1|1), opened:true→true (closedByScm cleared)
+2026-06-15 10:58:44.641 [info]    [CLI          ] CLI core version is 3.1.68
+2026-06-15 10:59:17.242 [info]    [GIT      10ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-list --max-parents=0 HEAD -- [10ms]
+2026-06-15 10:59:17.245 [info]    [  141 →   142] LocalSharedGkStorageLocationProvider.load Using shared GK path: /home/alunos/.local/share/gk
+2026-06-15 10:59:17.245 [info]    [GIT      13ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git shortlog -s --all --no-min-parents --since=1.year.ago [13ms]
+2026-06-15 11:01:12.232 [info]    [GIT       6ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ refs/tags/ [6ms]
+2026-06-15 11:01:12.242 [info]    [GIT       6ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config -f /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.git/gk/config branch.main.gk-last-accessed 2026-06-15T14:01:12.234Z [6ms]
+2026-06-15 11:05:00.533 [info]    [GIT      12ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- main.css [12ms]
+2026-06-15 11:05:00.545 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git config --get-regex ^user\.(name|email)$ [9ms]
+2026-06-15 11:05:00.556 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git check-mailmap Your Name <you@example.com> [8ms]
+2026-06-15 11:05:00.567 [info]    [GIT:→1       ] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- main.css · starting...
+2026-06-15 11:05:00.573 [info]    [GIT:←1   14ms] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- main.css [14ms]
+2026-06-15 11:05:00.638 [info]    [GIT      46ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D --summary -n1 34da9ab9f2006d571dd0f0d8bda6d377260e66fa^ -- main.css [46ms]
+2026-06-15 11:05:00.638 [info]    [GIT      64ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./main.css -- [64ms]
+2026-06-15 11:05:00.659 [info]    [GIT      59ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 34da9ab9f2006d571dd0f0d8bda6d377260e66fa -- [59ms]
+2026-06-15 11:05:03.250 [info]    [GIT      15ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [15ms]
+2026-06-15 11:05:03.257 [info]    [GIT:→2       ] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- index.html · starting...
+2026-06-15 11:05:03.263 [info]    [GIT:←2   11ms] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- index.html [11ms]
+2026-06-15 11:05:03.294 [info]    [GIT      21ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D --summary -n1 34da9ab9f2006d571dd0f0d8bda6d377260e66fa^ -- index.html [21ms]
+2026-06-15 11:05:03.298 [info]    [GIT      34ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./index.html -- [34ms]
+2026-06-15 11:05:05.278 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./main.css -- [9ms]
+2026-06-15 11:05:08.891 [info]    [GIT      15ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./index.html -- [15ms]
+2026-06-15 11:05:09.803 [info]    [GIT      12ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./main.css -- [12ms]
+2026-06-15 11:05:12.842 [info]    [GIT      17ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./index.html -- [17ms]
+2026-06-15 11:05:28.632 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  3c7 →   3c8] StatusBarController.updateBlame — failed [6ms]
+2026-06-15 11:05:28.633 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  3d0 →   3d1] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:28.667 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  3d5 →   3d6] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:05:28.734 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  3e0 →   3e1] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:28.813 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  3e5 →   3e6] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:05:28.863 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  3f0 →   3f1] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:29.006 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  3f5 →   3f6] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:05:29.056 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  400 →   401] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:30.023 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  412 →   413] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:30.072 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  41d →   41e] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:40.475 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  456 →   457] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:40.476 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  45f →   460] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:41.390 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  466 →   467] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:05:41.440 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  471 →   472] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:41.542 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  476 →   477] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:05:41.591 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  481 →   482] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:41.686 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  486 →   487] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:05:41.735 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  491 →   492] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:42.698 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  4a3 →   4a4] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:42.748 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  4ae →   4af] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:05:51.013 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [8ms]
+2026-06-15 11:06:06.092 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  5b0 →   5b1] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:06:07.182 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  5d8 →   5d9] StatusBarController.updateBlame — failed [4ms]
+2026-06-15 11:06:21.577 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  602 →   603] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:07:28.566 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [9ms]
+2026-06-15 11:08:47.354 [info]    [GIT      11ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- Arthur.css [11ms]
+2026-06-15 11:09:48.133 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- Arthur.css [8ms]
+2026-06-15 11:10:47.954 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  e42 →   e43] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:10:54.970 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  e68 →   e69] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:10:55.018 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  e76 →   e77] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:10:55.020 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  e81 →   e82] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:10:56.010 [info]    [GIT      20ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [20ms]
+2026-06-15 11:10:56.033 [info]    [GIT      21ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./index.html -- [21ms]
+2026-06-15 11:10:56.489 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  ed3 →   ed4] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:56.490 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  edc →   edd] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:56.581 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  ee1 →   ee2] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:10:56.632 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  eec →   eed] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:56.749 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  ef1 →   ef2] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:10:56.800 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  efc →   efd] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:56.925 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f01 →   f02] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:10:56.974 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f0c →   f0d] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:57.940 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f1e →   f1f] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:57.990 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f29 →   f2a] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:58.775 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f2e →   f2f] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:58.827 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f3a →   f3b] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:58.827 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f43 →   f44] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:59.787 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f55 →   f56] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:10:59.837 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f60 →   f61] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:00.061 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f65 →   f66] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:11:00.115 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f71 →   f72] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:11:00.117 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f7a →   f7b] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:11:00.285 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f7f →   f80] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:11:00.335 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f8a →   f8b] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:00.496 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f8f →   f90] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:11:00.547 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f9a →   f9b] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:00.637 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  f9f →   fa0] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:11:00.688 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  faa →   fab] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:00.813 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  faf →   fb0] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:11:00.864 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  fba →   fbb] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:00.924 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  fbf →   fc0] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:00.975 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  fca →   fcb] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:01.382 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  fd1 →   fd2] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:01.432 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  fdc →   fdd] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:02.395 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  fee →   fef] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:02.446 [error] TypeError: Cannot read properties of undefined (reading 'line')   [  ff9 →   ffa] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:11:03.103 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1017 →  1018] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:11:05.423 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1040 →  1041] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:11:43.752 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1085 →  1086] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:12:53.007 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 10f8 →  10f9] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:13:17.833 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [8ms]
+2026-06-15 11:13:39.714 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1194 →  1195] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:13:51.006 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 11c0 →  11c1] StatusBarController.updateBlame — failed [4ms]
+2026-06-15 11:14:23.705 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git cat-file commit 34da9ab9f2006d571dd0f0d8bda6d377260e66fa [9ms]
+2026-06-15 11:14:34.670 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1245 →  1246] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:14:36.795 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1293 →  1294] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:14:38.155 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 12e5 →  12e6] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:14:55.283 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 13db →  13dc] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:15:05.902 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1404 →  1405] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:15:18.469 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1456 →  1457] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:15:49.327 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 14a1 →  14a2] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:15:51.419 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 14d6 →  14d7] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:16:06.632 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 14f9 →  14fa] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:16:08.080 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1516 →  1517] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:16:09.006 [info]    [GIT      14ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git diff --no-ext-diff --minimal -U0 -M --diff-filter=MRC -- index.html [14ms]
+2026-06-15 11:16:09.615 [info]    [GIT     631ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [631ms]
+2026-06-15 11:16:09.633 [info]    [GIT      11ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L1,1:index.html [11ms]
+2026-06-15 11:16:09.641 [info]    [GIT      19ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L6,6:index.html [19ms]
+2026-06-15 11:16:09.642 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-parse --verify --end-of-options 34da9ab9f2006d571dd0f0d8bda6d377260e66fa^^{commit} [7ms]
+2026-06-15 11:16:15.108 [info]    [GIT     684ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [684ms]
+2026-06-15 11:16:15.188 [info]    [GIT      74ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D --summary -n2 --follow HEAD -- index.html [74ms]
+2026-06-15 11:16:15.197 [info]    [GIT       7ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D --summary -n1 34da9ab9f2006d571dd0f0d8bda6d377260e66fa -- index.html [7ms]
+2026-06-15 11:16:15.207 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -c -o -- index.html [8ms]
+2026-06-15 11:16:15.284 [info]    [GIT      17ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv 34da9ab9f2006d571dd0f0d8bda6d377260e66fa:./index.html -- [17ms]
+2026-06-15 11:16:15.287 [info]    [GIT      11ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-tree -l 34da9ab9f2006d571dd0f0d8bda6d377260e66fa -- index.html [11ms]
+2026-06-15 11:16:15.326 [info]    [GIT      20ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [20ms]
+2026-06-15 11:16:15.338 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1565 →  1566] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:16:15.683 [info]    [GIT:→3       ] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 34da9ab9f2006d571dd0f0d8bda6d377260e66fa -- index.html · starting...
+2026-06-15 11:16:15.685 [info]    [GIT:←3   12ms] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 34da9ab9f2006d571dd0f0d8bda6d377260e66fa -- index.html [12ms]
+2026-06-15 11:16:16.480 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1580 →  1581] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:16:17.462 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 158b →  158c] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:16:17.982 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1596 →  1597] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:16:18.454 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 15a1 →  15a2] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:16:18.910 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 15ac →  15ad] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:16:19.326 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 15b7 →  15b8] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:16:19.758 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 15c2 →  15c3] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:16:20.207 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 15cd →  15ce] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:16:20.711 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 15d8 →  15d9] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:16:24.001 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 15fe →  15ff] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:17:15.462 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 160e →  160f] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:17:15.465 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1619 →  161a] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:17:15.517 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1625 →  1626] StatusBarController.updateBlame — failed [2ms]
+2026-06-15 11:17:15.518 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 162e →  162f] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:17:15.960 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 1635 →  1636] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:17:15.991 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 163a →  163b] StatusBarController.updateBlame — failed [1ms]
+2026-06-15 11:17:16.024 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 163f →  1640] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:17:16.074 [error] TypeError: Cannot read properties of undefined (reading 'line')   [ 164a →  164b] StatusBarController.updateBlame — failed [0ms]
+2026-06-15 11:17:17.046 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- index.html [8ms]
+2026-06-15 11:17:17.055 [info]    [GIT:→4       ] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- index.html · starting...
+2026-06-15 11:17:17.060 [info]    [GIT:←4   11ms] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 -- index.html [11ms]
+2026-06-15 11:17:17.084 [info]    [GIT:→5       ] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 HEAD -- index.html · starting...
+2026-06-15 11:17:17.085 [info]    [GIT      24ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git show --textconv HEAD:./index.html -- [24ms]
+2026-06-15 11:17:17.088 [info]    [GIT:←5   12ms] (spawn) [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git blame --root --incremental --encoding=utf-8 HEAD -- index.html [12ms]
+2026-06-15 11:17:17.703 [info]    [GIT     634ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [634ms]
+2026-06-15 11:17:17.716 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L5,5:index.html [8ms] (waiting)
+2026-06-15 11:17:17.716 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L5,5:index.html [8ms] (waiting)
+2026-06-15 11:17:17.716 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L5,5:index.html [8ms]
+2026-06-15 11:17:17.725 [info]    [GIT       6ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git rev-parse --verify --end-of-options 34da9ab9f2006d571dd0f0d8bda6d377260e66fa^^{commit} [6ms]
+2026-06-15 11:17:21.802 [info]    [GIT      43ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 34da9ab9f2006d571dd0f0d8bda6d377260e66fa -- [43ms]
+2026-06-15 11:17:22.400 [info]    [GIT     652ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [652ms]
+2026-06-15 11:17:22.413 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L5,5:index.html [9ms] (waiting)
+2026-06-15 11:17:22.413 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L5,5:index.html [9ms] (waiting)
+2026-06-15 11:17:22.413 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L5,5:index.html [9ms]
+2026-06-15 11:17:23.413 [info]    [GIT     646ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git status --porcelain=v2 --branch -u --find-renames -- [646ms]
+2026-06-15 11:17:23.426 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L5,5:index.html [8ms] (waiting)
+2026-06-15 11:17:23.426 [info]    [GIT       8ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git log --format=%x1E%H%x1D -n2 -L5,5:index.html [8ms]
+2026-06-15 11:18:43.874 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [9ms]
+2026-06-15 11:19:21.738 [info]    [GIT       9ms] [/home/alunos/.arthuruser001/webdesign.tri2.ativ1] git ls-files -- aluno-cadastro.html [9ms]

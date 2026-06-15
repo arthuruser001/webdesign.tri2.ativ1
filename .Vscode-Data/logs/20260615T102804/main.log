@@ -1,0 +1,33 @@
+2026-06-15 10:28:05.034 [info] StorageMainService: creating application shared storage
+2026-06-15 10:28:05.054 [info] [shared storage] Creating shared storage database at '/home/alunos/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-15 10:28:05.055 [info] [shared storage] Initializing fallback application storage (path: /home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/globalStorage/state.vscdb)
+2026-06-15 10:28:05.122 [info] [shared storage] Fallback application storage initialized with 108 items
+2026-06-15 10:28:05.125 [info] update#setState idle
+2026-06-15 10:28:35.126 [info] update#setState checking for updates
+2026-06-15 10:28:35.336 [info] update#setState available for download
+2026-06-15 10:31:07.673 [info] update#setState idle
+2026-06-15 10:47:09.659 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:47:09.660 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:47:09.661 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:47:09.755 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:47:09.756 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:47:09.756 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:39.456 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:39.456 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:39.456 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:39.557 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:39.557 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:39.557 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:43.145 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:43.145 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:43.145 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:43.247 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:43.247 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:43.247 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:44.762 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:44.762 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:44.762 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:44.863 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:44.863 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:44.863 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:58:39.277 [info] Extension host with pid 4940 exited with code: 0, signal: unknown.

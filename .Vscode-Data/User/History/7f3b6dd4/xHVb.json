@@ -1,0 +1,142 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 12,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "explorer.confirmDelete": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnSave": true,
+  "diffEditor.codeLens": true,
+  "editor.minimap.autohide": "mouseover",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "workbench.activityBar.autoHide": true,
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.tips.enabled": false,
+  "workbench.tree.indent": 12,
+  "workbench.settings.alwaysShowAdvancedSettings": true,
+  "chat.agent.enabled": false,
+  "workbench.colorCustomizations": {
+    // --- Cores de Base e Bordas ---
+    "focusBorder": "#a17ee0",
+    "foreground": "#e2dfeb",
+    "widget.shadow": "#13101a",
+    "selection.background": "#8a63d255",
+    "descriptionForeground": "#857a96",
+    "errorForeground": "#ff6b6b",
+
+    // --- Barra de Título (Title Bar) ---
+    "titleBar.activeBackground": "#1d1726",
+    "titleBar.activeForeground": "#f2f0f7",
+    "titleBar.inactiveBackground": "#1d1726",
+    "titleBar.inactiveForeground": "#766c85",
+
+    // --- Barra de Atividades Lateral (Activity Bar) ---
+    "activityBar.background": "#16121d",
+    "activityBar.foreground": "#a17ee0",
+    "activityBar.inactiveForeground": "#584f66",
+    "activityBar.border": "#16121d",
+    "activityBarBadge.background": "#ffd700",
+    "activityBarBadge.foreground": "#16121d",
+
+    // --- Barra Lateral de Arquivos (Side Bar) ---
+    "sideBar.background": "#1d1726",
+    "sideBar.foreground": "#e2dfeb",
+    "sideBar.border": "#16121d",
+    "sideBarTitle.foreground": "#a17ee0",
+    "sideBarSectionHeader.background": "#251e30",
+    "sideBarSectionHeader.foreground": "#f2f0f7",
+
+    // --- O Editor de Código ---
+    "editor.background": "#231c30",
+    "editor.foreground": "#f2f0f7",
+    "editor.lineHighlightBackground": "#2d243d",
+    "editorCursor.foreground": "#ffd700",
+    "editor.selectionBackground": "#8a63d244",
+    "editor.findMatchBackground": "#ffd70044",
+    "editor.findMatchHighlightBackground": "#ffd70022",
+    "editorLineNumber.foreground": "#584f66",
+    "editorLineNumber.activeForeground": "#a17ee0",
+
+    // --- Abas de Arquivos (Tabs) ---
+    "editorGroupHeader.tabsBackground": "#1d1726",
+    "tab.activeBackground": "#231c30",
+    "tab.activeForeground": "#f2f0f7",
+    "tab.border": "#1d1726",
+    "tab.inactiveBackground": "#1d1726",
+    "tab.inactiveForeground": "#766c85",
+    "tab.activeBorderTop": "#a17ee0",
+
+    // --- Barra de Status Inferior (Status Bar) ---
+    "statusBar.background": "#16121d",
+    "statusBar.foreground": "#e2dfeb",
+    "statusBar.border": "#16121d",
+    "statusBar.debuggingBackground": "#8a63d2",
+
+    // --- Listas e Navegação (Menus e Explorer) ---
+    "list.activeSelectionBackground": "#332946",
+    "list.activeSelectionForeground": "#f2f0f7",
+    "list.hoverBackground": "#2d243d",
+    "list.highlightForeground": "#ffd700",
+
+    // --- Painel Inferior (Terminal e Saída) ---
+    "panel.background": "#1d1726",
+    "panel.border": "#16121d",
+    "panelTitle.activeForeground": "#a17ee0",
+    "panelTitle.inactiveForeground": "#766c85",
+    "terminal.background": "#1d1726",
+    "terminal.foreground": "#f2f0f7",
+
+    // --- Botões da Interface ---
+    "button.background": "#8a63d2",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#a17ee0",
+  },
+
+  // Ajuste fino para a sintaxe do código (Token Colors) baseado na Emilia
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "foreground": "#766c85",
+          "fontStyle": "italic",
+        },
+      },
+      {
+        "scope": ["string", "punctuation.definition.string"],
+        "settings": {
+          "foreground": "#2ed5b1",
+        },
+      },
+      {
+        "scope": ["keyword", "storage.type", "storage.modifier"],
+        "settings": {
+          "foreground": "#a17ee0",
+          "fontStyle": "bold",
+        },
+      },
+      {
+        "scope": ["constant.numeric", "constant.language", "support.constant"],
+        "settings": {
+          "foreground": "#ffd700",
+        },
+      },
+      {
+        "scope": ["entity.name.function", "support.function"],
+        "settings": {
+          "foreground": "#e8a7d1",
+        },
+      },
+      {
+        "scope": ["variable", "identifier"],
+        "settings": {
+          "foreground": "#f2f0f7",
+        },
+      },
+    ],
+  },
+  "terminal.integrated.initialHint": false,
+}

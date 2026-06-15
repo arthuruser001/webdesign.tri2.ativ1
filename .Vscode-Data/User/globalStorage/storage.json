@@ -9,11 +9,7 @@
                 "folderUri": "file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1780925540409"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -21,35 +17,33 @@
             "file:///home/arthuruser001/Trabalhos%20Escolares/Webdesign/Trimestre%202/Atividade%201": "__default__profile__",
             "file:///home/alunos/.arthuruser001/webdesign.tri2.ativ1": "__default__profile__"
         },
-        "emptyWindows": {
-            "1780925540409": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
-    "themeBackground": "#121314",
+    "themeBackground": "#492d5a",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#bfbfbf",
-            "background": "#121314",
-            "editorBackground": "#121314",
-            "titleBarBackground": "#191a1b",
-            "titleBarBorder": "#2a2b2c",
-            "activityBarBackground": "#191a1b",
-            "activityBarBorder": "#2a2b2c",
-            "sideBarBackground": "#191a1b",
-            "sideBarBorder": "#2a2b2c",
-            "statusBarBackground": "#191a1b",
-            "statusBarBorder": "#2a2b2c",
-            "statusBarNoFolderBackground": "#191a1b"
+            "foreground": "#dadada",
+            "background": "#492d5a",
+            "editorBackground": "#492d5a",
+            "titleBarBackground": "#4c2e5c",
+            "titleBarBorder": "#553a63",
+            "activityBarBackground": "#4e3162",
+            "activityBarBorder": "#553a63",
+            "sideBarBackground": "#492d5a",
+            "sideBarBorder": "#553a63",
+            "statusBarBackground": "#a53ba0",
+            "statusBarBorder": "#553a63",
+            "statusBarNoFolderBackground": "#a53ba0"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 0,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -80,6 +74,10 @@
                 },
                 "74875d63292a579889afebd7adc7e137": {
                     "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "4ae837f10405329d1911577d17a0c12e": {
+                    "sideBarVisible": false,
                     "auxiliaryBarVisible": false
                 }
             }

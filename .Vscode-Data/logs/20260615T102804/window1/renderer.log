@@ -1,0 +1,78 @@
+2026-06-15 10:28:06.850 [info] Started local extension host with pid 4940.
+2026-06-15 10:28:07.627 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-15 10:28:08.055 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-15 10:28:12.463 [info] Auto updating outdated extensions. eamodio.gitlens
+2026-06-15 10:28:12.590 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-15 10:28:12.765 [info] [perf] Render performance baseline is 47ms
+2026-06-15 10:42:20.864 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 724 (line 21 column 3)
+2026-06-15 10:42:20.902 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 724 (line 21 column 3)
+2026-06-15 10:42:32.268 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 724 (line 21 column 3)
+2026-06-15 10:42:32.269 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 724 (line 21 column 3)
+2026-06-15 10:42:46.968 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 721 (line 20 column 31)
+2026-06-15 10:42:47.071 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 721 (line 20 column 31)
+2026-06-15 10:42:48.539 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 724 (line 21 column 3)
+2026-06-15 10:42:48.551 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 724 (line 21 column 3)
+2026-06-15 10:42:52.588 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Unexpected non-whitespace character after JSON at position 4116 (line 142 column 1)
+2026-06-15 10:42:52.694 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Unexpected non-whitespace character after JSON at position 4116 (line 142 column 1)
+2026-06-15 10:47:09.604 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:47:09.705 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:47:09.759 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:47:09.759 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:47:09.759 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:47:09.858 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:47:09.858 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:47:09.859 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:47:19.450 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Unexpected non-whitespace character after JSON at position 9253 (line 270 column 1)
+2026-06-15 10:47:19.797 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Unexpected non-whitespace character after JSON at position 9253 (line 270 column 1)
+2026-06-15 10:50:39.409 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:50:39.512 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:50:39.554 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:39.555 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:39.555 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:39.661 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:39.661 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:39.661 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:43.090 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:50:43.198 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:50:43.244 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:43.244 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:43.244 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:43.349 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:43.350 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:43.350 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:44.707 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:50:44.813 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:50:44.861 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:44.862 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:44.862 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:50:44.967 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconErrored.retired as testing.iconErrored is "#ebdfff"
+2026-06-15 10:50:44.967 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconFailed.retired as testing.iconFailed is "#a783f2"
+2026-06-15 10:50:44.968 [error] Conflict in settings file vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User: Ignoring testing.iconPassed.retired as testing.iconPassed is "#8a65d6"
+2026-06-15 10:51:00.280 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Unexpected non-whitespace character after JSON at position 9253 (line 270 column 1)
+2026-06-15 10:51:00.382 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Unexpected non-whitespace character after JSON at position 9253 (line 270 column 1)
+2026-06-15 10:53:40.996 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:53:41.099 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/alunos/.arthuruser001/webdesign.tri2.ativ1/.Vscode-Data/User/settings.json: Expected double-quoted property name in JSON at position 768 (line 22 column 3)
+2026-06-15 10:58:39.393 [info] Started local extension host with pid 10545.
+2026-06-15 11:08:11.634 [error] Error: The editor could not be opened because the file was not found.
+    at Z9.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:92375)
+    at async Z9.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:91384)
+    at async SPe.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1204:34161)
+    at async SPe.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1204:31947)
+    at async SPe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1204:30895)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1316:31397
+    at async xit.doOpenCodeEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:37645)
+    at async xit.openCodeEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:26551)
+    at async Uot.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1877:636)
+    at async UAe.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1877:1936)
+2026-06-15 11:08:45.052 [error] Error: The editor could not be opened because the file was not found.
+    at Z9.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:92375)
+    at async Z9.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:91384)
+    at async SPe.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1204:34161)
+    at async SPe.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1204:31947)
+    at async SPe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1204:30895)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1316:31397
+    at async xit.doOpenCodeEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:37645)
+    at async xit.openCodeEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:26551)
+    at async Uot.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1877:636)
+    at async UAe.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1877:1936)
+2026-06-15 11:19:21.544 [error] An unknown error occurred. Please consult the log for more details.
